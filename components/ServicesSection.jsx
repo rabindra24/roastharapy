@@ -23,9 +23,9 @@ const ServicesSection = () => {
         alt="These is a Image"
       />
       <div className="bg-mainBackground bg-cover bg-center w-full py-20  relative p-5">
-        <h3 className="font-bold text-center text-white md:text-[3rem] text-[1.8rem]">
+        <h2 className="font-bold text-center text-white md:text-[3rem] text-[1.8rem]">
           Our Performance Marketing Services
-        </h3>
+        </h2>
         <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-10 mt-10">
           {data.map((item) => (
             <div
@@ -40,9 +40,9 @@ const ServicesSection = () => {
                   alt="These is a Image"
                 />
               </span>
-              <h4 className="text-white font-semibold text-[1.1rem]">
+              <p className="text-white font-semibold text-[1.1rem]">
                 {item.title}
-              </h4>
+              </p>
             </div>
           ))}
         </div>
