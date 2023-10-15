@@ -40,9 +40,9 @@ const ServicesSection = () => {
                   alt="These is a Image"
                 />
               </span>
-              <p className="text-white font-semibold text-[1.1rem]">
+              <h3 className="text-white font-semibold text-[1.1rem]">
                 {item.title}
-              </p>
+              </h3>
             </div>
           ))}
         </div>

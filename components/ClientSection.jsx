@@ -99,9 +99,9 @@ const ClientSection = () => {
                   alt="These is a Image"
 
                 />
-                <h4 className="text-white text-center font-bold my-2 text-[1.6rem]">
+                <h3 className="text-white text-center font-bold my-2 text-[1.6rem]">
                   {item.title}
-                </h4>
+                </h3>
                 <p className="bg-white absolute bottom-0 min-w-[200px] text-center p-3 rounded-t-full">
                   {item.slug}
                 </p>
