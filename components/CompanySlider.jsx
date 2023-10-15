@@ -45,8 +45,8 @@ const CompanySlider = () => {
     <div className="  w-full overflow-hidden ">
       <Slider {...settings}>
         {
-            data.map((item)=>(
-                <div className=" ">
+            data.map((item,idx)=>(
+                <div key={idx} className=" ">
                     <Image src={item.img} width={100} height={60} className=""/>
                 </div>
             ))
