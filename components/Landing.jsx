@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Landing = () => {
   return (
-    <section className="bg-mainBackground flex relative justify-center flex-col bg-center w-full h-screen pt-20">
+    <section className="bg-mainBackground flex relative justify-center flex-col bg-center w-full h-screen pt-20 px-5">
       <h1 className="text-center md:text-[4rem] sm:text-[3rem] text-white text-[2.5rem] font-bold">
         WE{" "}
         <span className="textGradient ">
@@ -20,7 +20,7 @@ const Landing = () => {
       <Image
         src={"/wave(3).svg"}
         width={10}
-        className="w-full  absolute md:-bottom-10 bottom-0"
+        className="w-full  absolute md:-bottom-10 bottom-0 left-0"
         height={50}
         alt="These is a Image"
       />

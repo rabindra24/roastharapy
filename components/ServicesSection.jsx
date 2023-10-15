@@ -14,7 +14,7 @@ const ServicesSection = () => {
     { id: 9, image: "/contact.webp", title: "Business Growth Consultation" },
   ];
   return (
-    <div className="w-full relative">
+    <div className="w-full relative ">
       <Image
         src={"/wave9.svg"}
         width={10}
@@ -22,7 +22,7 @@ const ServicesSection = () => {
         height={50}
         alt="These is a Image"
       />
-      <div className="bg-mainBackground bg-cover bg-center w-full py-20  relative">
+      <div className="bg-mainBackground bg-cover bg-center w-full py-20  relative p-5">
         <h1 className="font-bold text-center text-white md:text-[3rem] text-[1.8rem]">
           Our Performance Marketing Services
         </h1>

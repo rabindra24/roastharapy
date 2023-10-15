@@ -207,12 +207,12 @@ const Form = () => {
                 </div>
               </div>
               <div className="p-2 w-full">
-                <button className="bg-yellow-500 p-2 px-4 rounded-lg text-black">
+                <button className="buttonGradient p-2 px-4 rounded-lg text-white">
                   Submit
                 </button>
               </div>
               <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
-                <a className="text-indigo-500">roastharapy@email.com</a>
+                <a className="text-indigo-900">roastharapy@email.com</a>
                 <p className="leading-normal my-5">
                   
                   Near Police Station Parasia , 480441
