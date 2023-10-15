@@ -6,7 +6,7 @@ const Landing = () => {
     <section className="bg-mainBackground flex relative justify-center flex-col bg-center w-full h-screen pt-20">
       <h1 className="text-center md:text-[4rem] sm:text-[3rem] text-white text-[2.5rem] font-bold">
         WE{" "}
-        <span className="bg-gradientBackground bg-center bg-cover text-transparent bg-clip-text">
+        <span className="textGradient ">
           OPTIMIZE ADS
         </span>{" "}
         FOR <br /> MORE CUSTOMER
@@ -14,7 +14,7 @@ const Landing = () => {
       <h3 className="text-white md:text-[1.3rem] text-[1rem] text-center">
         Only Performance marketing Agency With Guaranteed Results
       </h3>
-      <a href="#contact" className="bg-gradientBackground text-white font-bold px-10 py-4 max-w-[300px] rounded-full text-center mx-auto mt-10 z-10">
+      <a href="#contact" className="buttonGradient text-white font-bold px-10 py-4 max-w-[300px] rounded-full text-center mx-auto mt-10 z-10">
         Get My Free Proposal &gt;&gt;
       </a>
       <Image

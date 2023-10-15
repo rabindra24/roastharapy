@@ -9,7 +9,6 @@ module.exports = {
     extend: {
       backgroundImage: {
         "mainBackground": "url('/background2.jpg')",
-        "gradientBackground" : "url('/gradient.gif')"
       },
     },
   },

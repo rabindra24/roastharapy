@@ -212,11 +212,10 @@ const Form = () => {
                 </button>
               </div>
               <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
-                <a className="text-indigo-500">example@email.com</a>
+                <a className="text-indigo-500">roastharapy@email.com</a>
                 <p className="leading-normal my-5">
-                  49 Smith St.
-                  <br />
-                  Saint Cloud, MN 56301
+                  
+                  Near Police Station Parasia , 480441
                 </p>
                 <span className="inline-flex">
                   <a className="text-gray-500">
