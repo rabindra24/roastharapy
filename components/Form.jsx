@@ -166,7 +166,7 @@ const Form = () => {
               </div>
               <div className="p-2 w-full hidden">
                 <h6 className="mb-3">What are you loking for ?</h6>
-                <div className="relative ">
+                {/* <div className="relative ">
                   {data.map((item, idx) => (
                     <div key={idx}>
                       <label
@@ -185,7 +185,7 @@ const Form = () => {
                       />
                     </div>
                   ))}
-                </div>
+                </div> */}
               </div>
               <div className="p-2 w-full">
                 <div className="relative">

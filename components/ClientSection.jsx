@@ -81,6 +81,7 @@ const ClientSection = () => {
         width={10}
         className="w-full  absolute top-0 z-50 "
         height={50}
+        alt="These is a Image"
       />
       <div className="  w-full overflow-hidden bg-mainBackground  bg-cover bg-center  py-20 md:px-10 ">
         <h2 className="text-center font-extrabold text-[3rem] mb-10 text-white">
@@ -88,13 +89,15 @@ const ClientSection = () => {
         </h2>
         <Slider {...settings} className="">
           {data.map((item) => (
-            <div className="md:mx-4 p-2 ">
+            <div key={item.id} className="md:mx-4 p-2 ">
               <div className="clientGradient p-4 h-[300px] rounded-2xl flex justify-center items-center flex-col relative">
                 <Image
                   src={item.img}
                   width={100}
                   height={60}
                   className="mx-auto"
+                  alt="These is a Image"
+
                 />
                 <h4 className="text-white text-center font-bold my-2 text-[1.6rem]">
                   {item.title}

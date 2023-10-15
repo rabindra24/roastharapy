@@ -22,6 +22,7 @@ const Landing = () => {
         width={10}
         className="w-full  absolute md:-bottom-10 bottom-0"
         height={50}
+        alt="These is a Image"
       />
     </section>
   );

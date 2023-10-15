@@ -20,6 +20,7 @@ const ServicesSection = () => {
         width={10}
         className="w-full  absolute top-0 z-50 "
         height={50}
+        alt="These is a Image"
       />
       <div className="bg-mainBackground bg-cover bg-center w-full py-20  relative">
         <h1 className="font-bold text-center text-white md:text-[3rem] text-[1.8rem]">
@@ -27,9 +28,17 @@ const ServicesSection = () => {
         </h1>
         <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-10 mt-10">
           {data.map((item) => (
-            <div className="cardgradient rounded-full p-4 flex md:gap-5 gap-3 items-center">
+            <div
+              key={item.id}
+              className="cardgradient rounded-full p-4 flex md:gap-5 gap-3 items-center"
+            >
               <span className="p-2 bg-gray-400 rounded-full imageBackGroundGradient">
-                <Image src={item.image} width={40} height={40} />
+                <Image
+                  src={item.image}
+                  width={40}
+                  height={40}
+                  alt="These is a Image"
+                />
               </span>
               <h5 className="text-white font-semibold text-[1.1rem]">
                 {item.title}
