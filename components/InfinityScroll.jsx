@@ -25,7 +25,7 @@ const InfinityScroll = () => {
         class="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll"
       >
         {data.map((item) => (
-          <li>
+          <li key={item.id}>
             <Image src={item.img} alt="Facebook" width={100} height={30} />
           </li>
         ))}
@@ -35,7 +35,7 @@ const InfinityScroll = () => {
         class="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll"
       >
         {data.map((item) => (
-          <li>
+          <li key={item.id}>
             <Image src={item.img} alt="Facebook" width={100} height={30} />
           </li>
         ))}
