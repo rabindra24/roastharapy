@@ -35,7 +35,7 @@ html {
   -webkit-backdrop-filter: blur(4px);
   border: 1px solid rgba(201, 47, 170, 0.24);
 }
-.textGradient {
+/* .textGradient {
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 400% 400%;
   background-clip: text;
@@ -44,6 +44,13 @@ html {
 .buttonGradient {
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 400% 400%;
+} */
+
+.textGradient {
+  color: white;
+}
+.buttonGradient {
+  color: white;
 }
 /* @keyframes gradient {
   0%,
